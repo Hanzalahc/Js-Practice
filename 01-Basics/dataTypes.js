@@ -7,6 +7,7 @@ let age = 25;
 let isApproved = true;
 let firstName; // undefined
 let lastName = null; // represents the empty value
+const bigInt = 1234567n;
 
 // console.table({
 //   name: { value: name, type: typeof name },
@@ -21,9 +22,26 @@ let lastName = null; // represents the empty value
 let score = "30abc";
 // let score = null;
 // let score = undefined;
-console.log(score, typeof score);
+// console.log(score, typeof score);
 
 // Convert string to number
 // score = parseInt(score);
 score = Number(score);
-console.log(score, typeof score);
+// console.log(score, typeof score);
+
+// Operations
+// let x = 10;
+// let y = -x;
+// console.log(y);
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
