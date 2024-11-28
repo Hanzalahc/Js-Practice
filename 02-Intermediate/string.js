@@ -26,8 +26,10 @@ console.log(s.slice(0, 5));
 console.log(s.slice(-0, -5));
 const goodName = "         JohnDoe                 ";
 console.log(goodName.trim());
+const str = "  Hello     World  !  ";
+const result = str.replace(/\s+/g, " ");
+console.log(result);
 
 console.log(s.replace("World", "There"));
 console.log(s.includes("World"));
-// console.log(s.split(""));
-// console.log(s.splice(""));
+console.log(s.split(" "));

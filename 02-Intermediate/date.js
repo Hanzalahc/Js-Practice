@@ -7,6 +7,16 @@ console.table({
   toDateString: now.toDateString(),
   toTimeString: now.toTimeString(),
   toLocaleString: now.toLocaleString(),
+  customLocaleString: now.toLocaleString("default", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    timeZoneName: "short",
+  }),
   toLocaleDateString: now.toLocaleDateString(),
   toLocaleTimeString: now.toLocaleTimeString(),
   toUTCString: now.toUTCString(),
@@ -17,4 +27,3 @@ console.table({
 let date = Date.now();
 console.log(date);
 // console.log(date.toLocaleString());
-
