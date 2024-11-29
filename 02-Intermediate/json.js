@@ -1,4 +1,4 @@
-// 09 - Json & Destructor
+// 08 - Json & Destructor
 
 const course = {
   title: "JavaScript - The Complete Guide",
