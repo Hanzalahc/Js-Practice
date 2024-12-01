@@ -71,5 +71,5 @@ This repository will help you:
 
 1. Clone the repository:  
    ```bash  
-   git clone (https://github.com/Hanzalahc/Js-Practice.git)
+   git clone https://github.com/Hanzalahc/Js-Practice.git
    cd javascript-practic
