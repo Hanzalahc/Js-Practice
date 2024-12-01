@@ -15,7 +15,7 @@ console.log(person1);
 console.log(person1.constructor); // [Function: Person] just ref of itself
 console.log(person1 instanceof Person); // true
 
-// Classes
+// Classes - New way
 
 class User {
   constructor(name, age, password) {

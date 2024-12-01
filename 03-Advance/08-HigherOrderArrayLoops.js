@@ -6,7 +6,7 @@ const detailedBasket = {
 };
 const string = "Hello World";
 
-// For Of - not for objects
+// For Of - not for objects - Can be used using Object.entries()
 for (item of basket) {
   // console.log(item);
 }
